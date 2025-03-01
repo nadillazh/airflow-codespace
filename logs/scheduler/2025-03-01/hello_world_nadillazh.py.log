@@ -118,3 +118,24 @@ NameError: name 'he' is not defined
 [2025-03-01T01:15:39.537+0000] {logging_mixin.py:190} INFO - [2025-03-01T01:15:39.537+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-01T01:15:39.564+0000] {logging_mixin.py:190} INFO - [2025-03-01T01:15:39.564+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_world to 2025-02-28 00:00:00+00:00, run_after=2025-03-01 00:00:00+00:00
 [2025-03-01T01:15:39.582+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hello_world_nadillazh.py took 0.088 seconds
+[2025-03-01T01:16:09.939+0000] {processor.py:186} INFO - Started process (PID=1946) to work on /opt/airflow/dags/hello_world_nadillazh.py
+[2025-03-01T01:16:09.939+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hello_world_nadillazh.py for tasks to queue
+[2025-03-01T01:16:09.940+0000] {logging_mixin.py:190} INFO - [2025-03-01T01:16:09.940+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hello_world_nadillazh.py
+[2025-03-01T01:16:09.947+0000] {processor.py:925} INFO - DAG(s) 'hello_world' retrieved from /opt/airflow/dags/hello_world_nadillazh.py
+[2025-03-01T01:16:09.960+0000] {logging_mixin.py:190} INFO - [2025-03-01T01:16:09.960+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-01T01:16:09.977+0000] {logging_mixin.py:190} INFO - [2025-03-01T01:16:09.977+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_world to 2025-02-28 00:00:00+00:00, run_after=2025-03-01 00:00:00+00:00
+[2025-03-01T01:16:09.990+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hello_world_nadillazh.py took 0.056 seconds
+[2025-03-01T01:16:40.687+0000] {processor.py:186} INFO - Started process (PID=2010) to work on /opt/airflow/dags/hello_world_nadillazh.py
+[2025-03-01T01:16:40.688+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hello_world_nadillazh.py for tasks to queue
+[2025-03-01T01:16:40.689+0000] {logging_mixin.py:190} INFO - [2025-03-01T01:16:40.688+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hello_world_nadillazh.py
+[2025-03-01T01:16:40.695+0000] {processor.py:925} INFO - DAG(s) 'hello_world' retrieved from /opt/airflow/dags/hello_world_nadillazh.py
+[2025-03-01T01:16:40.710+0000] {logging_mixin.py:190} INFO - [2025-03-01T01:16:40.710+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-01T01:16:40.729+0000] {logging_mixin.py:190} INFO - [2025-03-01T01:16:40.729+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_world to 2025-02-28 00:00:00+00:00, run_after=2025-03-01 00:00:00+00:00
+[2025-03-01T01:16:40.741+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hello_world_nadillazh.py took 0.059 seconds
+[2025-03-01T01:17:10.839+0000] {processor.py:186} INFO - Started process (PID=2074) to work on /opt/airflow/dags/hello_world_nadillazh.py
+[2025-03-01T01:17:10.839+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hello_world_nadillazh.py for tasks to queue
+[2025-03-01T01:17:10.840+0000] {logging_mixin.py:190} INFO - [2025-03-01T01:17:10.840+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hello_world_nadillazh.py
+[2025-03-01T01:17:10.846+0000] {processor.py:925} INFO - DAG(s) 'hello_world' retrieved from /opt/airflow/dags/hello_world_nadillazh.py
+[2025-03-01T01:17:10.859+0000] {logging_mixin.py:190} INFO - [2025-03-01T01:17:10.859+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-01T01:17:10.878+0000] {logging_mixin.py:190} INFO - [2025-03-01T01:17:10.878+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_world to 2025-02-28 00:00:00+00:00, run_after=2025-03-01 00:00:00+00:00
+[2025-03-01T01:17:10.890+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hello_world_nadillazh.py took 0.056 seconds
